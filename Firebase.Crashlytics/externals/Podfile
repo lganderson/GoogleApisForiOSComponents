@@ -1,15 +1,15 @@
 =begin
 Last run Crashlytics installed:
-- Crashlytics (3.10.1)
-- Fabric (1.7.5)
+- Crashlytics (3.10.2)
+- Fabric (1.7.6)
 
 Check if main version or subversion number has changed. 
 If yes, please, update *.targets files located in binding 
 projects, also, update Podfile files if needed.
 
 In .targets file, located in Firebase.Crashlytics binding, you can find:
-- Crashlytics (3.10.1)
-- Fabric (1.7.5)
+- Crashlytics (3.10.2)
+- Fabric (1.7.6)
 
 =end
 
@@ -19,6 +19,6 @@ platform :ios, '7.0'
 install! 'cocoapods', :integrate_targets => false
 
 target 'Crashlytics' do
-	pod 'Crashlytics', '3.10.1'
-	pod 'Fabric', '1.7.5'
+	pod 'Crashlytics', '3.10.2'
+	pod 'Fabric', '1.7.6'
 end
